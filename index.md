@@ -11,15 +11,39 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
+### Header 1
+mode.py : This file is the main runtime file for this program,the content of the code includes the implementation of various functions, for instance,loading of coordinate systems and reading of background image.There is also code about running front-end pages directly.There are also calls to various functions in other documents, such as movement, eating, interaction between agent points, etc.
+Part of main function code:
+for i in range(num_of_agents): 
+        print(agents[i])
+        agents[i].move(d)
+        agents[i].eat()
+        agents[i].share_with_neighbours(neighbourhood)
+        
+    for j in range(num_of_cats):
+        cats[j].move(distance)
+        print(cats[j])   
+            
+      
+    
+    # animation = matplotlib.animation.FuncAnimation(fig, update, interval=1)
+    for j in range(num_of_cats):
+        matplotlib.pyplot.scatter(cats[j].x,cats[j].y, color = cats[j].color)
+    
+
+
+### Header 2
+
+agentframework.py: This file contains the initialisation of the various ‘rat’ parameters.Various other functions,such as eat, move_coordinate, and most importantly, the interact with each agent points, etc.
+
 ### Header 3
 
-- Bulleted
-- List
+catsframework.py: This file contains the initialisation of the various ‘cats’ parameters.the functions are similar to the ‘agentframework’.
+How to run it?
 
-1. Numbered
-2. List
+Open the model.py document, run it, in the dialogue of the “Model of cat catching rates”, click on the “Model”,then click on the the “Run Programme”, this programme will run successfully.
+
+
 
 **Bold** and _Italic_ and `Code` text
 
