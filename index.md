@@ -24,7 +24,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-## Description of each document:
+**Description of each document:**
 1.mode.py : This file is the main runtime file for this program,the content of the code includes the implementation of various functions, for instance,loading of coordinate systems and reading of background image.There is also code about running front-end pages directly.There are also calls to various functions in other documents, such as movement, eating, interaction between agent points, etc.
 
 Part of function code: 
