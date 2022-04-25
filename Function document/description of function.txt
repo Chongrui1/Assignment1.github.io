@@ -1,0 +1,39 @@
+mode.py:
+1. def update:
+It including each 'agent', and 'cats' calls all kinds of functions, such as move, eat, and share neighhours.
+
+2. gen_function:
+This is a function of controling the number of running of each point, if a <10 ,First call to a, second call to a+1,iterative loop.
+
+
+agentframework.py:
+1. def  _init_
+Initialisation of the object parameters of the current class.Parameters passed including id, environment,agents,y,and x.
+The environment is a raster background for the animation,which reading from a csv file.
+The y and x are the x,y coordinate values of the agents point.
+
+2.def __str__(self):
+Print relevant information to the console.
+
+3.def move(self,d):
+Point movement function in animation, which could be called by the array of agents.
+d - Transmission distance parameters
+
+4.def move_coordinate(self,a,d):
+This function is about running siuation of point, determining that a point will move within a certain distance through a random function.
+a,d - Transmission (x,d) or (y,d) parameters from the function of move.
+
+5.def eat(self):
+the target of it is that showing the route of movement of each point in the coordinate image
+
+6.def share_with_neighbours(self,neighbourhood):
+when this function is called, the points information will be correlated.
+Using the 'for' loop to get each agent, and calling 'distance_between' function to get a distance,
+and share point information based on judgement statements.
+
+7.def distance_between(self, agent):
+agent  -  Transmission  the each point from the array of 'agents'.
+Directly return the result of distance between two points.
+
+catsframework.py:
+The functions are basically similar to 'agentframework.py'.
