@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Assignment1.github1_ Scatter plot of cat catching rates
 
 You can use the [editor on GitHub](https://github.com/Chongrui1/Assignment1.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -30,32 +30,11 @@ for i in range(num_of_agents):
     for j in range(num_of_cats):
         matplotlib.pyplot.scatter(cats[j].x,cats[j].y, color = cats[j].color)
     
-
-
 ### Header 2
 
 agentframework.py: This file contains the initialisation of the various ‘rat’ parameters.Various other functions,such as eat, move_coordinate, and most importantly, the interact with each agent points, etc.
 Part of main function code:
- def __init__(self,id,environment,agents,y,x,alive):
-        self.alive = True
-        self.agents = agents
-        self.environment = environment
-        self.store = 0
-        self.id = id
-        self.y = y
-        self.x = x
-        # self.color = color
-        # self.x = random.randint(0,99)
-        # self.y = random.randint(0,99)
-        # Define x,y to be chosen randomly from 0 to 100
-        if (y == None):
-            self._y = random.randint(0,100)
-        else:
-            self._y = x 
-        if (x == None):
-            self._x = random.randint(0,100)
-        else:
-            self._x = x 
+
 
 ### Header 3
 
