@@ -11,7 +11,6 @@ If the cat capturing successfully a rate, a white x can be seen in the image, if
 The user can run the menu by clicking on "Programme" to get an effect of presentation. 
 
 
-
 ## How to run it?
 Open the model.py document, run it,  in the dialogue of the "Model of cat catching rates", click on the "Model",then click on the the "Run Programme", this programme will run successfully.
 
